@@ -5,7 +5,7 @@ df = pd.read_csv("netflix_titles.csv")
 
 movies_df = df[df["type"] == "Movie"].copy()
 
-movies_df["country"] = movies_df["country"].fillna("Unknown")
+movies_df = movies_df.dropna(subset=["country"])
 movies_df["country"] = movies_df["country"].str.split(", ")
 movies_exploded = movies_df.explode("country")
 
@@ -34,11 +34,11 @@ fig = px.bar(
     y="movie_count",
     color="rating",
     barmode="group",
-    title="Las 3 clasificaciones de peliculas populares en los top 5 paises con mas producciones",
+    title="Las 3 clasificaciones de películas populares en los top 5 países con más producciones",
     labels={
-        "country": "Pais",
-        "movie_count": "Peliculas",
-        "rating": "Clasificacion",
+        "country": "País",
+        "movie_count": "Películas",
+        "rating": "Clasificación",
     },
     text_auto=True,
     template="plotly_white",
@@ -46,4 +46,4 @@ fig = px.bar(
 
 fig.update_layout(xaxis={"categoryorder": "array", "categoryarray": top_5_countries})
 
-fig.write_image("plotly.png")
+fig.write_image("graphics/plotly.png")

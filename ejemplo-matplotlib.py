@@ -15,4 +15,4 @@ plt.xlabel("Año de adición")
 plt.ylabel("Cantidad de títulos")
 plt.gcf().autofmt_xdate()
 
-plt.savefig("matplotlib.png")
+plt.savefig("graphics/matplotlib.png")

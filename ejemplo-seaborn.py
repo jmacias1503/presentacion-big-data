@@ -16,8 +16,8 @@ df_clean["month"] = df_clean["date_added"].dt.month
 plt.figure(figsize=(12, 6))
 sns.histplot(data=df_clean, x="year", bins=15, kde=True, color="purple")
 
-plt.title("Distribucion de titulos por ano - Netflix", fontsize=14)
-plt.xlabel("Ano")
-plt.ylabel("Cantidad de titulos")
+plt.title("Distribución de títulos por año - Netflix", fontsize=14)
+plt.xlabel("Año")
+plt.ylabel("Cantidad de títulos")
 
-plt.savefig("seaborn.png", dpi=150, bbox_inches="tight")
+plt.savefig("graphics/seaborn.png", dpi=150, bbox_inches="tight")
