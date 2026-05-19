@@ -22,8 +22,6 @@ def setup():
     if os.path.exists("requirements.txt"):
         subprocess.run([python_executable, "-m", "pip",
                        "install", "-r", "requirements.txt"])
-        subprocess.run("curl", "-L", "-k", "-o", "netflix-shows.zip",
-                       "https://www.kaggle.com/api/v1/datasets/download/shivamb/netflix-shows")
 
     print("\nSetup complete! To activate your environment:")
     if sys.platform == "win32":
