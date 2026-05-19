@@ -1,6 +1,7 @@
 *.pdf
 *.png
 *.csv
+node_modules/
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,jupyternotebooks,pycharm,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,jupyternotebooks,pycharm,vim
 
