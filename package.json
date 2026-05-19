@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "present": "cat slides/*.md | hercule --stdin | marp --stdin --base . --pdf -o presentacion.pdf",
-    "build": "python3 ejemplo-matplotlib.py & python3 ejemplo-plotly.py & python3 ejemplo-seaborn.py"
+    "build": "python3 ejemplo-matplotlib.py & python3 ejemplo-plotly.py & python3 ejemplo-seaborn.py",
+    "aggregate": "convert graphics/matplotlib.png graphics/plotly.png graphics/seaborn.png -append graphics/graphics.png"
   },
   "keywords": [],
   "author": "",
