@@ -1,10 +1,12 @@
 ![w:600px](https://plotly.github.io/documentation/all_static/images/graphing_library_dark.svg)
-# Grafica con Plotly
+# Gráfica con Plotly
 
-## Grafica de barras: Clasificaciones por pais
+- Utilizada mayormente con entornos web y dashboards
 
-- Libreria interactiva de visualizacion
-- Ideal para graficos dinamicos y web
+## Gráfica de barras: Clasificaciones por país
+
+- Librería interactiva de visualización
+- Ideal para gráficos dinámicos y web
 
 ---
 
@@ -14,12 +16,12 @@
 
 ---
 
-## Resultado: Grafica de barras interactiva
+## Resultado: Gráfica de barras interactiva
 
-![](top_ratings_by_country.png)
+![](plotly.png)
 
-- Muestra las 3 clasificaciones mas populares por pais
-- Grafica interactiva con tooltips
-- Exportable a HTML e imagenes
+- Muestra las 3 clasificaciones más populares por país
+- Gráfica interactiva con tooltips
+- Exportable a HTML e imágenes
 
 ---

@@ -1,10 +1,15 @@
 ![w:400px](https://matplotlib.org/_static/logo_light.svg)
-# Grafica con matplotlib
 
-## Histograma de titulos agregados a Netflix
+- La librería principal
+- Usada ampliamente en investigación para generar gráficos estáticos
+- Ideal para histogramas y gráficas simples
 
-- Libreria basica de visualizacion en Python
-- Ideal para histogramas y graficas simples
+---
+
+# Gráfica con matplotlib
+
+## Histograma de títulos agregados a Netflix
+
 
 ---
 
@@ -14,11 +19,11 @@
 
 ---
 
-## Resultado: Histograma de adicion de titulos
+## Resultado: Histograma de adición de títulos
 
-![](histograma_adicion_titulos.png)
+![](matplotlib.png)
 
-- Muestra la frecuencia de titulos agregados por ano
+- Muestra la frecuencia de títulos agregados por año
 - 20 bins para distribuir los datos
 - Color skyblue con bordes negros
 

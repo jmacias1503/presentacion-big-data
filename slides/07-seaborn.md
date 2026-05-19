@@ -1,10 +1,9 @@
 ![w:400px](https://seaborn.pydata.org/_static/logo-wide-lightbg.svg)
-# Grafica con Seaborn
 
-## Histograma con curva de densidad (KDE)
+- Hecha sobre matplotlib
+- Interfaz de alto nivel para gráficos estadísticos
 
-- Built sobre matplotlib
-- Interfaz de alto nivel para graficos estadisticos
+# Gráfica con Seaborn
 
 ---
 
@@ -16,10 +15,10 @@
 
 ## Resultado: Histograma con KDE
 
-![Grafica seaborn](/home/jmacias8075/Documents/second-brain/school/big-data/presentacion-histogramas/seaborn.png)
+![](seaborn.png)
 
-- 15 bins para distribucion anual
+- 15 bins para distribución anual
 - KDE (Kernel Density Estimation) superpuesta
-- Color purple con estilo mejorado automatico
+- Color purple con estilo mejorado automático
 
 ---

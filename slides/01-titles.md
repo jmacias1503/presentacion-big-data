@@ -1,5 +1,5 @@
-# Grafica de Barras/Histogramas
+# Gráfica de barras / histogramas
 
-**Juarez Ramirez Gabriel, Macias Fonseca Alejandro, Mata Guerra David**
+**Juárez Ramírez Gabriel, Macías Fonseca Alejandro, Mata Guerra David**
 
 ---

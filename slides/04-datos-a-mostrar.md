@@ -1,7 +1,7 @@
 # Datos a mostrar con histograma
 
-- Frecuencia de adicion de titulos a la plataforma
-- Clasificaciones mas vistas por los top 5 paises
+- Frecuencia de adición de títulos a la plataforma
+- Clasificaciones más vistas por los top 5 países
 
 ## Dataset a utilizar
 
