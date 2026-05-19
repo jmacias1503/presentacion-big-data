@@ -1,0 +1,25 @@
+{
+  "name": "presentacion-histogramas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "present": "cat slides/*.md | hercule --stdin | marp --stdin --base . --pdf -o presentacion.pdf",
+    "build": "python3 ejemplo-matplotlib.py & python3 ejemplo-plotly.py & python3 ejemplo-seaborn.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.1.3",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.4.0",
+    "hercule": "^5.1.3"
+  }
+}
